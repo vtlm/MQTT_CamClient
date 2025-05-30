@@ -45,7 +45,9 @@ class MainActivity : ComponentActivity() {
                                 modifier = Modifier.padding(innerPadding)
                             )
 
-//                            BitmapImage(appViewModel.jpgImage.collectAsState().value)
+                            BitmapImage(appViewModel.mqttCameraClient.jpgImage.collectAsState().value)
+                            BitmapImage(appViewModel.mqttCameraClient.jpgImage.collectAsState().value)
+                            BitmapImage(appViewModel.mqttCameraClient.jpgImage.collectAsState().value)
                         }
                     }
                 }
