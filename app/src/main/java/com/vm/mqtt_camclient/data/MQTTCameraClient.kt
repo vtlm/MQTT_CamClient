@@ -36,7 +36,7 @@ class MQTTCameraClient (
             while (!mqttClient.isConnected) {
                 delay(100)
             }
-//            mqttClient.mqttPublish("Cmd", "getFrame", 1)
+            mqttClient.mqttPublish("Cmd", "getFrame", 1)
         }
     }
 
